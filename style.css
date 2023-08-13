@@ -1,0 +1,166 @@
+/* Reset default styles */
+body, h1, h2, h3, p, label, input, select, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+font-family: 'Source Code Pro', monospace;
+
+
+    
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #d8f2f4;
+    color: #333;
+    line-height: 1.5;
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat;  
+    height: 150vh;
+
+
+  }
+   #logo img {
+    max-width: 250px; /* Set the maximum width for the logo */
+    height: auto; /* Maintain the aspect ratio */
+    margin-bottom: 10px; /* Add some spacing below the logo */
+    margin-right: 10px;
+  }
+  header {
+    background-color: #f07167;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  h2 {
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.80);  
+}
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #00afb9;
+    text-shadow: 2px 2px 4px rgba(165, 157, 157, 0.5);
+  }
+  
+  p {
+    /* font-family: 'Lato', sans-serif; */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(119, 111, 111, 0.5);
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(119, 111, 111, 0.5);
+  }
+
+  button[type="submit"]:hover {
+    background-color: #d5004e;
+    box-shadow: 2px 2px 4px rgba(32, 31, 31, 0.5); /* Add shadow on hover */
+  }
+  
+  
+  input[type="email"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+    
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #00afb9;;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #confirmation-message {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    main {
+      margin: 10px;
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    h2 {
+      font-size: 16px;
+    }
+  
+    h3 {
+      font-size: 18px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  
+    input[type="email"],
+    select {
+      font-size: 14px;
+    }
+  
+    button[type="submit"] {
+      font-size: 14px;
+    }
+  
+    #confirmation-message {
+      font-size: 14px;
+    }
+  }
+  
